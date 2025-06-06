@@ -1,0 +1,192 @@
+{
+  "site": {
+    "title": "回声 - 专业镜像服务",
+    "description": "回声 - 专业的网络镜像站点服务提供商，提供高速、稳定、安全的镜像服务",
+    "keywords": "镜像服务,网络镜像,CDN,高速下载,稳定服务",
+    "logo": {
+      "text": "回声",
+      "subtext": "Echo"
+    }
+  },
+  "navigation": [
+    { "name": "首页", "path": "/", "key": "home" },
+    { "name": "服务", "path": "/services", "key": "services" },
+    { "name": "关于我们", "path": "/about", "key": "about" },
+    { "name": "联系我们", "path": "/contact", "key": "contact" }
+  ],
+  "home": {
+    "hero": {
+      "title": "欢迎来到",
+      "brand": "回声",
+      "subtitle": "专业的网络镜像站点服务提供商，为您提供高速、稳定、安全的镜像服务",
+      "primaryButton": "开始使用",
+      "secondaryButton": "了解更多"
+    },
+    "features": {
+      "title": "为什么选择回声？",
+      "subtitle": "我们提供业界领先的镜像服务解决方案",
+      "items": [
+        {
+          "icon": "lightning",
+          "title": "高速稳定",
+          "description": "采用全球CDN网络，确保最快的下载速度和99.9%的可用性",
+          "color": "blue"
+        },
+        {
+          "icon": "shield",
+          "title": "安全可靠",
+          "description": "严格的安全检查和验证机制，保障您的数据安全",
+          "color": "green"
+        },
+        {
+          "icon": "globe",
+          "title": "全球覆盖",
+          "description": "覆盖全球主要地区的镜像节点，就近访问提升体验",
+          "color": "purple"
+        }
+      ]
+    },
+    "stats": {
+      "items": [
+        { "value": "1000+", "label": "活跃用户" },
+        { "value": "50+", "label": "镜像源" },
+        { "value": "99.9%", "label": "可用性" },
+        { "value": "24/7", "label": "技术支持" }
+      ]
+    },
+    "cta": {
+      "title": "准备开始了吗？",
+      "subtitle": "立即体验回声镜像服务，享受高速稳定的下载体验",
+      "button": "免费试用"
+    }
+  },
+  "services": {
+    "title": "我们的服务",
+    "subtitle": "为不同需求提供专业的镜像解决方案",
+    "items": [
+      {
+        "title": "软件包镜像",
+        "description": "提供各种编程语言和包管理器的镜像服务",
+        "features": ["NPM", "PyPI", "Maven", "NuGet"],
+        "icon": "package"
+      },
+      {
+        "title": "容器镜像",
+        "description": "Docker Hub和其他容器注册表的高速镜像",
+        "features": ["Docker Hub", "Harbor", "私有镜像", "自动同步"],
+        "icon": "container"
+      },
+      {
+        "title": "源码镜像",
+        "description": "Git仓库和源码托管平台的镜像服务",
+        "features": ["GitHub", "GitLab", "Bitbucket", "自建Git"],
+        "icon": "code"
+      },
+      {
+        "title": "操作系统镜像",
+        "description": "主流Linux发行版的ISO镜像下载",
+        "features": ["Ubuntu", "CentOS", "Debian", "Fedora"],
+        "icon": "server"
+      },
+      {
+        "title": "数据库镜像",
+        "description": "各种数据库软件的镜像和备份服务",
+        "features": ["MySQL", "PostgreSQL", "MongoDB", "Redis"],
+        "icon": "database"
+      },
+      {
+        "title": "定制服务",
+        "description": "根据企业需求提供定制化镜像解决方案",
+        "features": ["私有部署", "专属节点", "技术支持", "SLA保障"],
+        "icon": "settings"
+      }
+    ]
+  },
+  "about": {
+    "title": "关于回声",
+    "subtitle": "专注于网络镜像服务的技术团队",
+    "story": {
+      "title": "我们的故事",
+      "content": "回声成立于2020年，致力于为全球用户提供最优质的网络镜像服务。我们的团队由经验丰富的网络工程师和系统架构师组成，深耕CDN和分布式存储技术多年。"
+    },
+    "mission": {
+      "vision": {
+        "title": "愿景",
+        "content": "成为全球领先的网络镜像服务提供商"
+      },
+      "mission": {
+        "title": "使命",
+        "content": "让数据传输更快速、更可靠、更安全"
+      },
+      "values": {
+        "title": "价值观",
+        "content": "创新、专业、可靠、服务至上"
+      }
+    }
+  },
+  "contact": {
+    "title": "联系我们",
+    "subtitle": "我们随时为您提供专业的技术支持",
+    "info": {
+      "email": "contact@echo-mirror.com",
+      "phone": "+86 400-123-4567",
+      "address": "北京市朝阳区科技园区创新大厦 15层",
+      "workingHours": "周一至周五 9:00-18:00"
+    },
+    "form": {
+      "title": "发送消息",
+      "fields": {
+        "name": "姓名",
+        "email": "邮箱",
+        "company": "公司",
+        "message": "消息"
+      },
+      "button": "发送消息"
+    },
+    "faq": {
+      "title": "常见问题",
+      "items": [
+        {
+          "question": "如何开始使用镜像服务？",
+          "answer": "您可以直接访问我们的镜像地址，或者联系我们的技术团队获取详细的配置指南。"
+        },
+        {
+          "question": "是否支持私有部署？",
+          "answer": "是的，我们提供私有部署方案，可以根据您的需求定制专属的镜像服务。"
+        },
+        {
+          "question": "服务可用性如何保障？",
+          "answer": "我们承诺99.9%的服务可用性，并提供24/7的技术支持和监控服务。"
+        }
+      ]
+    }
+  },
+  "footer": {
+    "company": {
+      "name": "回声科技有限公司",
+      "description": "专业的网络镜像服务提供商"
+    },
+    "links": {
+      "services": ["软件包镜像", "容器镜像", "源码镜像", "定制服务"],
+      "support": ["技术文档", "API接口", "状态监控", "工单系统"],
+      "company": ["关于我们", "新闻动态", "招聘信息", "联系我们"]
+    },
+    "social": [
+      { "name": "GitHub", "url": "https://github.com/echo-mirror" },
+      { "name": "微博", "url": "https://weibo.com/echo-mirror" },
+      { "name": "微信", "url": "#" }
+    ],
+    "copyright": "© 2024 回声科技有限公司. 保留所有权利."
+  },
+  "theme": {
+    "colors": {
+      "primary": "blue",
+      "secondary": "gray",
+      "accent": "purple"
+    },
+    "gradients": {
+      "hero": "from-blue-50 to-indigo-100",
+      "cta": "bg-blue-600"
+    }
+  }
+} 
