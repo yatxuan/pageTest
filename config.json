@@ -1,192 +1,213 @@
 {
   "site": {
-    "title": "回声 - 专业镜像服务",
-    "description": "回声 - 专业的网络镜像站点服务提供商，提供高速、稳定、安全的镜像服务",
-    "keywords": "镜像服务,网络镜像,CDN,高速下载,稳定服务",
+    "title": "YuKi的温馨小店",
+    "description": "YuKi的温馨角落：甄选全球奢品包袋与沙龙香氛，以艺术典藏温暖日常",
+    "keywords": "原厂皮包,专柜级,同款工艺,私密发货,工厂直供",
     "logo": {
-      "text": "回声",
-      "subtext": "Echo"
+      "text": "YuKi",
+      "subtext": "店铺"
     }
   },
   "navigation": [
-    { "name": "首页", "path": "/", "key": "home" },
-    { "name": "服务", "path": "/services", "key": "services" },
-    { "name": "关于我们", "path": "/about", "key": "about" },
-    { "name": "联系我们", "path": "/contact", "key": "contact" }
+    {
+      "name": "首页",
+      "path": "/",
+      "key": "home"
+    },
+    {
+      "name": "店铺",
+      "path": "/services",
+      "key": "services"
+    },
+    {
+      "name": "联系我们",
+      "path": "/contact",
+      "key": "contact"
+    }
   ],
+  "common": {
+    "loading": "加载中...",
+    "error": "加载失败",
+    "language": "语言",
+    "chinese": "中文",
+    "english": "English"
+  },
   "home": {
     "hero": {
       "title": "欢迎来到",
-      "brand": "回声",
-      "subtitle": "专业的网络镜像站点服务提供商，为您提供高速、稳定、安全的镜像服务",
-      "primaryButton": "开始使用",
-      "secondaryButton": "了解更多"
+      "subtitle": "🌹 「YuKi的温馨角落：甄选全球奢品包袋与沙龙香氛，以艺术典藏温暖日常」",
+      "primaryButton": "开始选购商品",
+      "secondaryButton": "联系我们"
     },
     "features": {
-      "title": "为什么选择回声？",
-      "subtitle": "我们提供业界领先的镜像服务解决方案",
+      "title": "为什么选择YuKi？",
+      "subtitle": "我们重新定义值得信赖的全球优品体验",
       "items": [
         {
-          "icon": "lightning",
-          "title": "高速稳定",
-          "description": "采用全球CDN网络，确保最快的下载速度和99.9%的可用性",
-          "color": "blue"
-        },
-        {
           "icon": "shield",
-          "title": "安全可靠",
-          "description": "严格的安全检查和验证机制，保障您的数据安全",
+          "title": "隐私保障 · 无忧交付",
+          "description": "隐私发货,1对1专属客服，解决品质与合规性双重顾虑",
           "color": "green"
         },
         {
           "icon": "globe",
-          "title": "全球覆盖",
-          "description": "覆盖全球主要地区的镜像节点，就近访问提升体验",
+          "title": "全球直采 · 应景优选",
+          "description": "深度合作全国各地原厂供应链，根据季节与节日动态优化选品，让新鲜时令直达您手",
           "color": "purple"
+        },
+        {
+          "icon": "gift",
+          "title": "仪式体验 · 情感联结",
+          "description": "每份包裹承载开箱惊喜，打造「悠享一刻」生活哲学，让购物成为治愈日常的仪式",
+          "color": "blue"
         }
       ]
     },
     "stats": {
       "items": [
-        { "value": "1000+", "label": "活跃用户" },
-        { "value": "50+", "label": "镜像源" },
-        { "value": "99.9%", "label": "可用性" },
-        { "value": "24/7", "label": "技术支持" }
+        {
+          "value": "2000+",
+          "label": "活跃用户"
+        },
+        {
+          "value": "10W+",
+          "label": "订单数量"
+        },
+        {
+          "value": "99.9%",
+          "label": "可用性"
+        },
+        {
+          "value": "24/7",
+          "label": "技术支持"
+        }
       ]
     },
     "cta": {
       "title": "准备开始了吗？",
-      "subtitle": "立即体验回声镜像服务，享受高速稳定的下载体验",
-      "button": "免费试用"
+      "subtitle": "🔥 ​​「即刻解锁顶级工艺 · 直达您的精致生活」​",
+      "button": "开始选购"
     }
   },
   "services": {
-    "title": "我们的服务",
-    "subtitle": "为不同需求提供专业的镜像解决方案",
-    "items": [
-      {
-        "title": "软件包镜像",
-        "description": "提供各种编程语言和包管理器的镜像服务",
-        "features": ["NPM", "PyPI", "Maven", "NuGet"],
-        "icon": "package"
-      },
-      {
-        "title": "容器镜像",
-        "description": "Docker Hub和其他容器注册表的高速镜像",
-        "features": ["Docker Hub", "Harbor", "私有镜像", "自动同步"],
-        "icon": "container"
-      },
-      {
-        "title": "源码镜像",
-        "description": "Git仓库和源码托管平台的镜像服务",
-        "features": ["GitHub", "GitLab", "Bitbucket", "自建Git"],
-        "icon": "code"
-      },
-      {
-        "title": "操作系统镜像",
-        "description": "主流Linux发行版的ISO镜像下载",
-        "features": ["Ubuntu", "CentOS", "Debian", "Fedora"],
-        "icon": "server"
-      },
-      {
-        "title": "数据库镜像",
-        "description": "各种数据库软件的镜像和备份服务",
-        "features": ["MySQL", "PostgreSQL", "MongoDB", "Redis"],
-        "icon": "database"
-      },
-      {
-        "title": "定制服务",
-        "description": "根据企业需求提供定制化镜像解决方案",
-        "features": ["私有部署", "专属节点", "技术支持", "SLA保障"],
-        "icon": "settings"
-      }
-    ]
-  },
-  "about": {
-    "title": "关于回声",
-    "subtitle": "专注于网络镜像服务的技术团队",
-    "story": {
-      "title": "我们的故事",
-      "content": "回声成立于2020年，致力于为全球用户提供最优质的网络镜像服务。我们的团队由经验丰富的网络工程师和系统架构师组成，深耕CDN和分布式存储技术多年。"
+    "hero": {
+      "title": "我们的店铺",
+      "subtitle": "提供全方位的网络镜像站解决方案，满足不同规模企业的需求"
     },
-    "mission": {
-      "vision": {
-        "title": "愿景",
-        "content": "成为全球领先的网络镜像服务提供商"
-      },
-      "mission": {
-        "title": "使命",
-        "content": "让数据传输更快速、更可靠、更安全"
-      },
-      "values": {
-        "title": "价值观",
-        "content": "创新、专业、可靠、服务至上"
-      }
-    }
-  },
-  "contact": {
-    "title": "联系我们",
-    "subtitle": "我们随时为您提供专业的技术支持",
-    "info": {
-      "email": "contact@echo-mirror.com",
-      "phone": "+86 400-123-4567",
-      "address": "北京市朝阳区科技园区创新大厦 15层",
-      "workingHours": "周一至周五 9:00-18:00"
-    },
-    "form": {
-      "title": "发送消息",
-      "fields": {
-        "name": "姓名",
-        "email": "邮箱",
-        "company": "公司",
-        "message": "消息"
-      },
-      "button": "发送消息"
-    },
-    "faq": {
-      "title": "常见问题",
+    "core": {
       "items": [
         {
-          "question": "如何开始使用镜像服务？",
-          "answer": "您可以直接访问我们的镜像地址，或者联系我们的技术团队获取详细的配置指南。"
+          "title": "豪华系列",
+          "description": "探索我们采用手工细节打造的高端独家奢华产品系列",
+          "features": "访问商店",
+          "url": "https://good-bags1.myshoplaza.com/",
+          "iconBg": "bg-blue-100",
+          "iconColor": "text-blue-600",
+          "iconPath": "M9 3v2m6-2v2M9 19v2m6-2v2M5 9H3m2 6H3m18-6h-2m2 6h-2M7 19h10a2 2 0 002-2V7a2 2 0 00-2-2H7a2 2 0 00-2 2v10a2 2 0 002 2zM9 9h6v6H9V9z"
         },
         {
-          "question": "是否支持私有部署？",
-          "answer": "是的，我们提供私有部署方案，可以根据您的需求定制专属的镜像服务。"
+          "title": "包包",
+          "description": "每一次出行，都是与世界的优雅约会——让我们的手袋封存你的闪耀瞬间",
+          "features": "访问商店",
+          "url": "https://momoka-diy.myshoplaza.com/",
+          "iconBg": "bg-green-100",
+          "iconColor": "text-green-600",
+          "iconPath": "M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"
         },
         {
-          "question": "服务可用性如何保障？",
-          "answer": "我们承诺99.9%的服务可用性，并提供24/7的技术支持和监控服务。"
+          "title": "香水",
+          "description": "你的气息，是写给世界的隐形情书",
+          "features": "访问商店",
+          "url": "https://no-105-1.myshoplaza.com/",
+          "iconBg": "bg-purple-100",
+          "iconColor": "text-purple-600",
+          "iconPath": "M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"
         }
       ]
     }
   },
-  "footer": {
-    "company": {
-      "name": "回声科技有限公司",
-      "description": "专业的网络镜像服务提供商"
-    },
-    "links": {
-      "services": ["软件包镜像", "容器镜像", "源码镜像", "定制服务"],
-      "support": ["技术文档", "API接口", "状态监控", "工单系统"],
-      "company": ["关于我们", "新闻动态", "招聘信息", "联系我们"]
-    },
-    "social": [
-      { "name": "GitHub", "url": "https://github.com/echo-mirror" },
-      { "name": "微博", "url": "https://weibo.com/echo-mirror" },
-      { "name": "微信", "url": "#" }
+  "contact": {
+    "title": "联系我们",
+    "subtitle": "随时准备为您提供专业的服务支持，期待您的选购",
+    "info": [
+      {
+        "title": "WhatsApp客服",
+        "description": "一对一的专属客服",
+        "features": "立即添加",
+        "url": "https://wa.me/8618122376281",
+        "iconBg": "bg-green-100",
+        "iconColor": "text-green-600",
+        "iconIndex": "WhatsApp"
+      },
+      {
+        "title": "WhatsApp群聊",
+        "description": "加入 Yuki 的群聊",
+        "features": "加入群聊",
+        "url": "https://chat.whatsapp.com/Eu4v5xBjnLvLbkExmf6QCT",
+        "iconBg": "bg-green-100",
+        "iconColor": "text-green-600",
+        "iconIndex": "Info"
+      },
+      {
+        "title": "IG客服",
+        "description": "属于你的IG客服",
+        "features": "立即咨询",
+        "url": "https://www.instagram.com/yuki_luxe_customer_service?igsh=Y2JuNXlmNXZiZ3pi",
+        "iconBg": "bg-purple-100",
+        "iconColor": "text-purple-600",
+        "iconIndex": "IG"
+      }
     ],
-    "copyright": "© 2024 回声科技有限公司. 保留所有权利."
-  },
-  "theme": {
-    "colors": {
-      "primary": "blue",
-      "secondary": "gray",
-      "accent": "purple"
+    "support": {
+      "title": "24/7 技术支持",
+      "description": "我们的客服人员将为您提供专业的产品咨询和售后保障。",
+      "responseTime": [
+        {
+          "type": "咨询时间(中国时间)",
+          "time": "8:00-24:00"
+        } 
+      ]
     },
-    "gradients": {
-      "hero": "from-blue-50 to-indigo-100",
-      "cta": "bg-blue-600"
+    "faq": {
+      "title": "常见问题",
+      "subtitle": "以下是客户经常询问的问题",
+      "items": [
+        {
+          "question": "如何获取客服支持？",
+          "answer": "您可以通过WhatsApp、IG或在群里联系我们的客服人员，我们将在2小时内响应一般咨询，24小时内响应紧急支持。"
+        },
+        {
+          "question": "如何查询快递行程?",
+          "answer": "复制订单内提供的快递单号，然后访问'https://www.17track.net/zh-cn'，进行查询。"
+        }
+      ]
+    },
+    "guarantee": {
+      "title": "服务保障",
+      "subtitle": "我们承诺为您提供最优质的服务体验",
+      "items": [
+        {
+          "title": "快速响应",
+          "description": "7×24小时技术支持，2小时内响应您的咨询",
+          "iconBg": "bg-blue-100",
+          "iconColor": "text-blue-600",
+          "iconPath": "M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"
+        },
+        {
+          "title": "专业服务",
+          "description": "专业客服提供产品咨询和其他问题的解决方案",
+          "iconBg": "bg-green-100",
+          "iconColor": "text-green-600",
+          "iconPath": "M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
+        },
+        {
+          "title": "服务保障",
+          "description": "服务保障，确保服务质量和稳定性",
+          "iconBg": "bg-purple-100",
+          "iconColor": "text-purple-600",
+          "iconPath": "M9 12l2 2 4-4m5.586-3.586a2 2 0 112.828 2.828l-6.586 6.586a2 2 0 01-2.828 0l-6.586-6.586a2 2 0 112.828-2.828L9 9l.586-.586z"
+        }
+      ]
     }
   }
-} 
+}
